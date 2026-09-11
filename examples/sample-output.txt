@@ -1,0 +1,194 @@
+========================================
+            AGROSENTINEL
+Polymorphic Threat Response Simulation
+========================================
+
+Initial Orchard Status
+----------------------------------------
+ Orchard Status (Round 1)
+----------------------------------------
+  Health : 100 / 100
+  Yield  : 100%
+  Trees  : 200
+----------------------------------------
+
+========== Round 1 / 5 ==========
+
+Threat detected: Aphids (severity 1/10)
+Insects that multiply quickly and mainly damage crop yield.
+
+  [Aphids] A colony of aphids swarms the branches...
+  [Aphids] Health -4, Yield -7% (infestation level 1)
+
+----------------------------------------
+ Orchard Status (Round 1)
+----------------------------------------
+  Health :  96 / 100
+  Yield  :  93%
+  Trees  : 200
+----------------------------------------
+
+Select a defense action:
+  1. Fungicide Spray - A chemical treatment, especially effective against Scab.
+  2. Pruning - Removes damaged growth; a general-purpose defense, strong vs Aphids.
+  3. Net Covering - Physical netting; a general shield, excellent against Hailstorm.
+Enter choice (1-3): 
+  [FungicideSpray] Spraying fungicide across the orchard...
+  [FungicideSpray] Health +15, Yield +5%
+
+----------------------------------------
+ Orchard Status (Round 1)
+----------------------------------------
+  Health : 100 / 100
+  Yield  :  98%
+  Trees  : 200
+----------------------------------------
+
+========== Round 2 / 5 ==========
+
+Threat detected: Hailstorm (severity 8/10)
+A sudden, heavy weather event that deals immediate damage.
+
+  [Hailstorm] Heavy hail crashes down on the orchard...
+  [Hailstorm] Health -25, Yield -15% (sudden impact)
+
+----------------------------------------
+ Orchard Status (Round 2)
+----------------------------------------
+  Health :  75 / 100
+  Yield  :  83%
+  Trees  : 200
+----------------------------------------
+
+Select a defense action:
+  1. Fungicide Spray - A chemical treatment, especially effective against Scab.
+  2. Pruning - Removes damaged growth; a general-purpose defense, strong vs Aphids.
+  3. Net Covering - Physical netting; a general shield, excellent against Hailstorm.
+Enter choice (1-3): 
+  [Pruning] Cutting away damaged branches and leaves...
+  [Pruning] Health +10, Yield +8%
+
+----------------------------------------
+ Orchard Status (Round 2)
+----------------------------------------
+  Health :  85 / 100
+  Yield  :  91%
+  Trees  : 200
+----------------------------------------
+
+========== Round 3 / 5 ==========
+
+Threat detected: Hailstorm (severity 8/10)
+A sudden, heavy weather event that deals immediate damage.
+
+  [Hailstorm] Heavy hail crashes down on the orchard...
+  [Hailstorm] Health -25, Yield -15% (sudden impact)
+
+----------------------------------------
+ Orchard Status (Round 3)
+----------------------------------------
+  Health :  60 / 100
+  Yield  :  76%
+  Trees  : 200
+----------------------------------------
+
+Select a defense action:
+  1. Fungicide Spray - A chemical treatment, especially effective against Scab.
+  2. Pruning - Removes damaged growth; a general-purpose defense, strong vs Aphids.
+  3. Net Covering - Physical netting; a general shield, excellent against Hailstorm.
+Enter choice (1-3): 
+  [NetCovering] Stretching protective netting over the trees...
+  [NetCovering] Blocks hail directly - excellent vs Hailstorm!
+  [NetCovering] Health +28, Yield +13%
+
+----------------------------------------
+ Orchard Status (Round 3)
+----------------------------------------
+  Health :  88 / 100
+  Yield  :  89%
+  Trees  : 200
+----------------------------------------
+
+========== Round 4 / 5 ==========
+
+Threat detected: Aphids (severity 2/10)
+Insects that multiply quickly and mainly damage crop yield.
+
+  [Aphids] A colony of aphids swarms the branches...
+  [Aphids] Health -5, Yield -9% (infestation level 2)
+
+----------------------------------------
+ Orchard Status (Round 4)
+----------------------------------------
+  Health :  83 / 100
+  Yield  :  80%
+  Trees  : 200
+----------------------------------------
+
+Select a defense action:
+  1. Fungicide Spray - A chemical treatment, especially effective against Scab.
+  2. Pruning - Removes damaged growth; a general-purpose defense, strong vs Aphids.
+  3. Net Covering - Physical netting; a general shield, excellent against Hailstorm.
+Enter choice (1-3): 
+  [FungicideSpray] Spraying fungicide across the orchard...
+  [FungicideSpray] Health +15, Yield +5%
+
+----------------------------------------
+ Orchard Status (Round 4)
+----------------------------------------
+  Health :  98 / 100
+  Yield  :  85%
+  Trees  : 200
+----------------------------------------
+
+========== Round 5 / 5 ==========
+
+Threat detected: Aphids (severity 3/10)
+Insects that multiply quickly and mainly damage crop yield.
+
+  [Aphids] A colony of aphids swarms the branches...
+  [Aphids] Health -6, Yield -11% (infestation level 3)
+
+----------------------------------------
+ Orchard Status (Round 5)
+----------------------------------------
+  Health :  92 / 100
+  Yield  :  74%
+  Trees  : 200
+----------------------------------------
+
+Select a defense action:
+  1. Fungicide Spray - A chemical treatment, especially effective against Scab.
+  2. Pruning - Removes damaged growth; a general-purpose defense, strong vs Aphids.
+  3. Net Covering - Physical netting; a general shield, excellent against Hailstorm.
+Enter choice (1-3): 
+  [Pruning] Cutting away damaged branches and leaves...
+  [Pruning] Removes infested branches - strong vs Aphids!
+  [Pruning] Health +15, Yield +15%
+
+----------------------------------------
+ Orchard Status (Round 5)
+----------------------------------------
+  Health : 100 / 100
+  Yield  :  89%
+  Trees  : 200
+----------------------------------------
+
+========================================
+            FINAL REPORT
+========================================
+Rounds completed : 5 / 5
+Final Health     : 100 / 100
+Final Yield      : 89%
+Trees remaining  : 200
+Verdict          : Excellent management! The orchard is thriving.
+
+Event Log:
+  Round 1: Aphids (sev 1) -> health 100->96, yield 100->93 | defended with Fungicide Spray -> health 96->100, yield 93->98
+  Round 2: Hailstorm (sev 8) -> health 100->75, yield 98->83 | defended with Pruning -> health 75->85, yield 83->91
+  Round 3: Hailstorm (sev 8) -> health 85->60, yield 91->76 | defended with Net Covering -> health 60->88, yield 76->89
+  Round 4: Aphids (sev 2) -> health 88->83, yield 89->80 | defended with Fungicide Spray -> health 83->98, yield 80->85
+  Round 5: Aphids (sev 3) -> health 98->92, yield 85->74 | defended with Pruning -> health 92->100, yield 74->89
+========================================
+
+(Visualization data written to visualization/data/simulation_log.json)
