@@ -1,4 +1,4 @@
- #AGROSENTINEL
+# AgroSentinel
 
 **A Polymorphic Threat Response Simulation Framework**
 
